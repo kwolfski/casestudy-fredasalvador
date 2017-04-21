@@ -103,6 +103,12 @@ textarea {
      box-sizing: inherit;
    }
 
+   body {
+     font-family: sans-serif;
+     text-transform: uppercase;
+     letter-spacing: 0.25em;
+   }
+
 
 
 
