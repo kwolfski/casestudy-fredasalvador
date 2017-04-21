@@ -105,18 +105,27 @@ textarea {
 
    body {
      font-family: sans-serif;
-     letter-spacing: 0.25em;
+     letter-spacing: 0.15em;
    }
 
 .top-message {
   text-transform: uppercase;
-  font-size: small;
+  font-size: 9px;
   text-align: center;
-  background-color: #e2e2e2;
+  background-color: #f7f5f5;
   padding: 5px;
   margin: 0;
 }
 
+.page-header {
+    padding: 30px 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+
+}
 
 
 
