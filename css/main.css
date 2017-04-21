@@ -124,8 +124,42 @@ textarea {
     left: 0;
     width: 100%;
     z-index: 100;
+}
+
+.page-header h1 {
+  margin: 0;
+  font-size: 200%;
+}
+
+.page-header ul {
+  list-style-type: none;
+  margin: 0;
 
 }
+
+.main-nav li {
+  display: inline-block;
+  padding: .625em;
+  float: left;
+  margin-right: 5px;
+}
+
+.main-nav a{
+  text-decoration: none;
+  color: black;
+  list-style-type: none;
+
+}
+
+.main-nav a:hover{
+}
+
+.page-header .main-nav {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+}
+
 
 
 
