@@ -105,10 +105,17 @@ textarea {
 
    body {
      font-family: sans-serif;
-     text-transform: uppercase;
      letter-spacing: 0.25em;
    }
 
+.top-message {
+  text-transform: uppercase;
+  font-size: small;
+  text-align: center;
+  background-color: #e2e2e2;
+  padding: 5px;
+  margin: 0;
+}
 
 
 
