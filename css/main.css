@@ -152,6 +152,11 @@ textarea {
 }
 
 .main-nav a:hover{
+  display: block;
+}
+
+.main-nav .drop-down {
+  list-style-type: none;
 }
 
 .page-header .main-nav {
