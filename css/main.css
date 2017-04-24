@@ -206,10 +206,18 @@ textarea {
   float: left;
 }
 
-
 .project-thumb a {
   text-decoration: none;
   color: black;
+}
+
+.project-thumb {
+  position: relative;
+  float: left;
+}
+
+.follow a:hover{
+  color: hsla(269, 100%, 0%, 0.47);
 }
 
 
