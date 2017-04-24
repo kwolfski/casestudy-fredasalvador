@@ -108,6 +108,15 @@ textarea {
      letter-spacing: 0.15em;
    }
 
+   h3 {
+     text-align: center;
+     text-transform: uppercase;
+     color: black;
+     font-weight: lighter;
+     font-size: 12px;
+   }
+
+
 .top-message {
   text-transform: uppercase;
   position: fixed;
@@ -173,7 +182,6 @@ textarea {
 }
 
 .hero {
-  position: absolute;
   margin: 0;
   max-width: 100%;
 
@@ -187,9 +195,22 @@ textarea {
 }
 
 
+.shoe-row {
+  clear: both;
+  float: left;
+}
+
+.project-thumb {
+  position: relative;
+  max-width: 25%;
+  float: left;
+}
 
 
-
+.project-thumb a {
+  text-decoration: none;
+  color: black;
+}
 
 
 
