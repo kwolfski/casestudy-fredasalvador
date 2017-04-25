@@ -143,6 +143,52 @@ textarea {
   font-size: 200%;
 }
 
+
+.main-nav {
+  position: absolute;
+  display: inline-block;
+
+}
+
+.main-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav li {
+  display: inline-block;
+  padding: .625em;
+  float: left;
+  margin-right: 5px;
+}
+
+.main-nav li a{
+  display: block;
+  text-decoration: none;
+}
+
+.main-nav li a:hover{
+  cursor: pointer;
+}
+
+.main-nav li ul {
+  display: none;
+  position: absolute;
+}
+
+.main-nav li:hover ul{
+  display: block;
+  padding: 0;
+}
+
+.main-nav li li {
+  border: 0;
+  border-left: 1px red solid;
+}
+
+/*
+
 .main-nav ul {
   list-style-type: none;
   margin: 0;
@@ -182,6 +228,7 @@ textarea {
   top: 1em;
   right: 1em;
 }
+*/
 
 .side {
   float: right;
