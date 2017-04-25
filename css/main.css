@@ -155,9 +155,8 @@ textarea {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  text-decoration: none;
-  color: black;
-  
+
+
 }
 
 .main-nav li {
@@ -167,9 +166,12 @@ textarea {
   margin-right: 5px;
 }
 
-.main-nav li a{
+.main-nav li a {
   display: block;
   text-decoration: none;
+  text-decoration: none;
+  color: black;
+  text-align: center;
 }
 
 .main-nav li a:hover{
@@ -184,11 +186,18 @@ textarea {
 .main-nav li:hover ul{
   display: block;
   padding: 0;
+  background: #fff;
 }
 
 .main-nav li li {
+  clear: both;
   border: 0;
   border-left: 1px red solid;
+}
+
+.main-nav li li a {
+  border: 0;
+  display: run-in;
 }
 
 /*
