@@ -97,6 +97,7 @@ textarea {
 
    html {
      box-sizing: border-box;
+
    }
 
    *, *:before, *:after {
@@ -229,7 +230,6 @@ textarea {
 .hero {
   margin: 0;
   max-width: 100%;
-
 }
 
 .logo {
@@ -240,6 +240,7 @@ textarea {
   width: 30%;
 }
 
+/*-- Shoe Row --*/
 
 .shoe-row {
   clear: both;
@@ -250,7 +251,7 @@ textarea {
   position: relative;
   width: 33%;
   float: left;
-  padding-bottom: 30px;
+  padding: 0 20px 20px 20px;
 }
 
 .project-thumb img{
@@ -272,33 +273,92 @@ textarea {
   color: hsla(269, 100%, 0%, 0.47);
 }
 
+/*-- Third Row --*/
+
 .third-row {
-
+  clear: both;
+  float: left;
+  margin: 20px;
 }
 
-.third-row .botanical {
+.project-thumb-bot {
   position: relative;
+  width: 67.5%;
   float: left;
-  width: 65.65%;
-  padding: 10px;
+  padding-right: 10px;
 }
 
-.third-row .lookbook {
-  float: left;
-  width: 32%;
-  padding: 10px;
+.project-thumb-bot img{
+  position: relative;
+  width: 100%;
 }
 
-.third-row h3 {
-  text-align: center;
+.project-thumb-bot a {
+  text-decoration: none;
+}
+
+.project-thumb-look {
+  position: relative;
+  width: 32.5%;
   float: left;
-  display: inline-block;
+}
+
+.project-thumb-look img{
+  position: relative;
+  width: 100%;
+}
+
+.project-thumb-look a {
+  text-decoration: none;
 }
 
 .in-the-know {
   clear: both;
   padding-top: 40px;
 }
+
+.project-thumb-know {
+  background-color: #f7f5f5;
+  position: relative;
+  width: 33%;
+  float: left;
+  padding: 0 20px 20px 20px;
+}
+
+.project-thumb-know {
+  position: relative;
+  float: left;
+}
+
+.know {
+  text-align: center;
+  color: black;
+  padding: 30px;
+  font-weight: lighter;
+  font-size: 14px;
+
+}
+
+.project-thumb-know h3 {
+  font-size: 15px;
+  padding-top: 60px;
+}
+
+.email {
+}
+
+/*
+
+.lookbook .lookbook_img {
+  float: left;
+  padding: 10px;
+}
+
+.botanical h3 {
+  display: block;
+  float: none;
+}
+
 
 
 
