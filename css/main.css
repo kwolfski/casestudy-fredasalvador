@@ -336,6 +336,7 @@ textarea {
   padding: 30px;
   font-weight: lighter;
   font-size: 14px;
+  max-width: 100%;
 
 }
 
