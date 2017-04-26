@@ -248,8 +248,14 @@ textarea {
 
 .project-thumb {
   position: relative;
-  max-width: 25%;
+  width: 33%;
   float: left;
+  padding-bottom: 30px;
+}
+
+.project-thumb img{
+  position: relative;
+  max-width: 100%;
 }
 
 .project-thumb a {
@@ -266,9 +272,33 @@ textarea {
   color: hsla(269, 100%, 0%, 0.47);
 }
 
+.third-row {
 
+}
 
+.third-row .botanical {
+  position: relative;
+  float: left;
+  width: 65.65%;
+  padding: 10px;
+}
 
+.third-row .lookbook {
+  float: left;
+  width: 32%;
+  padding: 10px;
+}
+
+.third-row h3 {
+  text-align: center;
+  float: left;
+  display: inline-block;
+}
+
+.in-the-know {
+  clear: both;
+  padding-top: 40px;
+}
 
 
 
