@@ -435,6 +435,10 @@ h2 {
   float: left;
 }
 
+.btn {
+  align-items: center;
+}
+
 
 /* footer */
 .footer {
@@ -443,32 +447,71 @@ h2 {
   width: 100%;
 }
 
+.footer h3 {
+  text-align: left;
+}
+
 .footer p {
   line-height: 0.75em;
 }
 
 .info {
   position: relative;
-  width: 25%;
+  width: 20%;
   float: left;
-  padding-right: 10px;
+  padding: 30px 0;
+  margin-left: 45px;
 }
 
 .bottom-nav {
   position: relative;
   width: 50%;
   float: right;
+  padding: 60px 0;
 }
+
 
 .popup img{
   position: relative;
   width: 100%;
 }
 
-.popup a {
+.bottom-nav a {
   text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: lighter;
+  padding: 20px;
 }
 
+.social-footer {
+  display: inline-block;
+  background-color: #fff;
+  width: 100%;
+  padding: 20px;
+}
+
+.fa-facebook {
+  padding: 0 30px;
+}
+
+.fa-twitter {
+  padding: 0 30px;
+}
+
+.fa-instagram {
+  padding: 0 30px;
+}
+
+.fa-pinterest {
+  padding: 0 30px;
+}
+
+.footer p {
+  clear: both;
+  text-align: left;
+}
 
 
 
