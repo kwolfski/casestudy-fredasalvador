@@ -117,6 +117,12 @@ textarea {
      font-size: 12px;
    }
 
+  p {
+     color: black;
+     font-weight: lighter;
+     font-size: 12px;
+   }
+
 
 .top-message {
   text-transform: uppercase;
@@ -230,6 +236,7 @@ textarea {
 .hero {
   margin: 0;
   max-width: 100%;
+  margin-top: 100px;
 }
 
 .logo {
@@ -347,6 +354,123 @@ textarea {
 
 .email {
 }
+
+/*-- Store Row --*/
+
+
+.store-row {
+  clear: both;
+  float: left;
+  margin: 20px;
+}
+
+.la {
+  position: relative;
+  width: 50%;
+  float: left;
+  padding-right: 10px;
+}
+
+.la img{
+  position: relative;
+  width: 100%;
+}
+
+.la a {
+  text-decoration: none;
+}
+
+.popup {
+  position: relative;
+  width: 50%;
+  float: left;
+}
+
+.popup img{
+  position: relative;
+  width: 100%;
+}
+
+.popup a {
+  text-decoration: none;
+}
+
+/*-- Fredas Favorites --*/
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  font-weight: lighter;
+  font-size: 14px;
+  letter-spacing: 0.5em;
+}
+
+.fredas {
+  clear: both;
+  float: left;
+  padding: 30px 0;
+  background-color: #fff;
+}
+
+.favorites {
+  position: relative;
+  width: 25%;
+  float: left;
+  padding: 0 20px 20px 20px;
+}
+
+.favorites img{
+  position: relative;
+  max-width: 100%;
+}
+
+.favorites a {
+  text-decoration: none;
+  color: black;
+}
+
+.favorites {
+  position: relative;
+  float: left;
+}
+
+
+/* footer */
+.footer {
+  background-color: #f7f5f5;
+  float: left;
+  width: 100%;
+}
+
+.footer p {
+  line-height: 0.75em;
+}
+
+.info {
+  position: relative;
+  width: 25%;
+  float: left;
+  padding-right: 10px;
+}
+
+.bottom-nav {
+  position: relative;
+  width: 50%;
+  float: right;
+}
+
+.popup img{
+  position: relative;
+  width: 100%;
+}
+
+.popup a {
+  text-decoration: none;
+}
+
+
+
 
 /*
 
