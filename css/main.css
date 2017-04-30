@@ -117,6 +117,14 @@ textarea {
      font-size: 12px;
    }
 
+   h4 {
+     text-align: center;
+     text-transform: uppercase;
+     color: black;
+     font-weight: bold;
+     font-size: 12px;
+   }
+
   p {
      color: black;
      font-weight: lighter;
@@ -155,6 +163,10 @@ textarea {
   font-size: 10px;
   padding: 10px;
 
+}
+
+.side-nav {
+    text-transform: uppercase;
 }
 
 .main-nav ul {
@@ -380,6 +392,35 @@ textarea {
   text-decoration: none;
 }
 
+.la_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 100px;
+  margin: 0;
+  font-size: 14px;
+}
+
+.la .btn {
+  font-family: sans-serif;
+  letter-spacing: 0.15em;
+  font-weight: lighter;
+  text-transform: uppercase;
+  border: #000;
+  padding: 10px;
+  text-decoration: none;
+  margin: 0;
+  color: #000;
+  background-color: hsla(360, 100%, 100%, 0.86);
+}
+
+.la .btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
 .popup {
   position: relative;
   width: 50%;
@@ -391,8 +432,37 @@ textarea {
   width: 100%;
 }
 
-.popup a {
+.popup_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: hsla(360, 100%, 100%, 0.86);
+  padding: 100px;
+  margin: 0;
+  font-size: 14px;
+}
+
+.popup .time {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.popup .btn {
+  font-family: sans-serif;
+  letter-spacing: 0.15em;
+  font-weight: lighter;
+  text-transform: uppercase;
+  border: #000;
+  padding: 10px;
   text-decoration: none;
+  color: #000;
+}
+
+.popup .btn:hover {
+  background-color: #fff;
+  color: #000;
 }
 
 /*-- Fredas Favorites --*/
@@ -435,10 +505,33 @@ h2 {
   float: left;
 }
 
-.btn {
-  align-items: center;
+.shoes {
+  position: relative;
+  width: 100%;
+  float: left;
+  padding: 20px;
 }
 
+.view_all {
+border: #000 1px solid;
+padding: 15px;
+}
+
+.shoes .handmade {
+  width: 100%;
+  position: relative;
+}
+
+.shoes .handmade_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-5%, -50%);
+  text-align: center;
+  padding: 100px;
+  margin: 0;
+  font-size: 14px;
+}
 
 /* footer */
 .footer {
