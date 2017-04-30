@@ -165,8 +165,33 @@ textarea {
 
 }
 
-.side-nav {
-    text-transform: uppercase;
+.fa-search {
+  float: left;
+  padding: 10px;
+
+}
+
+.side-nav a {.fa
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+
+}
+
+.side-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+}
+
+.side-nav li {
+  display: inline-block;
+  padding: 0 3em;
+  float: left;
+  margin: 0;
+  color: #000;
 }
 
 .main-nav ul {
@@ -184,7 +209,6 @@ textarea {
 
 .main-nav li a {
   display: block;
-  text-decoration: none;
   text-decoration: none;
   color: black;
   text-align: center;
@@ -520,6 +544,7 @@ padding: 15px;
 .shoes .handmade {
   width: 100%;
   position: relative;
+  padding: 20px 0 50px 0;
 }
 
 .shoes .handmade_content {
