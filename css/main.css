@@ -316,6 +316,15 @@ textarea {
   color: hsla(269, 100%, 0%, 0.47);
 }
 
+.new-arrivals {
+  background-image: url('img/1.jpg');
+}
+
+.new-arrivals:hover{
+  background-image: url('img/newarrivals-front.jpg');
+
+}
+
 /*-- Third Row --*/
 
 .third-row {
