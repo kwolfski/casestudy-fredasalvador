@@ -131,6 +131,14 @@ textarea {
      font-size: 12px;
    }
 
+   #page-wrap {
+     width: auto;;
+     margin: auto;
+     padding: 15px;
+     overflow: auto;
+     background-color: #fff;
+   }
+
 
 .top-message {
   text-transform: uppercase;
@@ -316,14 +324,7 @@ textarea {
   color: hsla(269, 100%, 0%, 0.47);
 }
 
-.new-arrivals {
-  background-image: url('img/1.jpg');
-}
 
-.new-arrivals:hover{
-  background-image: url('img/newarrivals-front.jpg');
-
-}
 
 /*-- Third Row --*/
 
@@ -367,6 +368,7 @@ textarea {
 .in-the-know {
   clear: both;
   padding-top: 40px;
+  width: 100%;
 }
 
 .project-thumb-know {
@@ -397,8 +399,6 @@ textarea {
   padding-top: 60px;
 }
 
-.email {
-}
 
 /*-- Store Row --*/
 
@@ -407,6 +407,7 @@ textarea {
   clear: both;
   float: left;
   margin: 20px;
+  width: 100%;
 }
 
 .la {
@@ -431,12 +432,11 @@ textarea {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  padding: 100px;
   margin: 0;
   font-size: 14px;
 }
 
-.la .btn {
+.btn_la {
   font-family: sans-serif;
   letter-spacing: 0.15em;
   font-weight: lighter;
@@ -449,14 +449,14 @@ textarea {
   background-color: hsla(360, 100%, 100%, 0.86);
 }
 
-.la .btn:hover {
+.la .btn_la:hover {
   background-color: #fff;
   color: #000;
 }
 
 .popup {
   position: relative;
-  width: 50%;
+  width: 49.25%;
   float: left;
 }
 
@@ -472,9 +472,17 @@ textarea {
   transform: translate(-50%, -50%);
   text-align: center;
   background-color: hsla(360, 100%, 100%, 0.86);
-  padding: 100px;
+  width: 400px;
+  height: 400px;
   margin: 0;
   font-size: 14px;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .popup .time {
@@ -546,9 +554,22 @@ h2 {
 }
 
 .view_all {
-border: #000 1px solid;
-padding: 15px;
+  border: #000 1px solid;
+  padding: 15px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: lighter;
+  text-decoration: none;
+  color: #000;
 }
+
+.view_all:hover {
+  cursor: pointer;
+}
+
 
 .shoes .handmade {
   width: 100%;
@@ -616,7 +637,11 @@ padding: 15px;
   display: inline-block;
   background-color: #fff;
   width: 100%;
-  padding: 20px;
+  padding: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 0;
 }
 
 .fa-facebook {
@@ -640,7 +665,14 @@ padding: 15px;
   text-align: left;
 }
 
+.address {
+  background-color: #fff;
+  padding: 10px;
+}
 
+.address p {
+  text-align: center;
+}
 
 /*
 
