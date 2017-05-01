@@ -423,7 +423,13 @@ textarea {
 }
 
 .la a {
-  text-decoration: none;
+}
+
+.text a {
+  display: inline-block;
+  padding: 20px;
+
+
 }
 
 .la_content {
